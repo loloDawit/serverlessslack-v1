@@ -1,0 +1,37 @@
+{
+  "name": "serverless-slackv2",
+  "description": "A Slack App Framework for AWS Lambda / Serverless.js",
+  "version": "1.0.1",
+  "main": "src/index.js",
+  "author": "Dawit A <dawitabera64@gmail.com>",
+  "homepage": "https://github.com/loloDawit/serverlessslack-v1",
+  "license": "MIT",
+  "keywords": [
+    "slack",
+    "app",
+    "bot",
+    "aws",
+    "lambda",
+    "dynamo",
+    "serverless"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loloDawit/serverlessslack-v1.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loloDawit/serverlessslack-v1/issues"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.861.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.3.1"
+  }
+}
